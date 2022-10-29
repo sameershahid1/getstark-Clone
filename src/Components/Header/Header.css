@@ -1,0 +1,247 @@
+.Header
+{
+    display: flex;
+    flex-direction: column;
+    background: url('../../Assets/homepage-gradient-bg.webp');
+    background-size:cover;
+    background-repeat: no-repeat;    
+    background-color: #381fd1;
+    color: white;
+}
+
+.Header__Navbar
+{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding:7px 0;
+    font-size:11px;
+    letter-spacing:1px;
+}
+
+.Header__Navbar svg
+{
+    width:1.6rem;
+}
+
+.Header__Navbar li,
+.link-trial a
+{
+    margin:0 10px;
+    text-transform: uppercase;
+    border:1px solid transparent;
+    cursor: pointer;
+}
+
+
+.link-trial a
+{
+    background: white;
+    color: #381fd1;
+    margin:4px;
+    padding:4px 14px 3px 14px;
+    border-radius:5px;
+}
+
+
+.navHover
+{
+    padding:3px 7px 2px 7px;
+    border-radius:4px;
+}
+
+.navHover:hover
+{
+   border-color: white;
+   transition:0.5s ease-in-out all;
+}
+
+.Header__Selection>:nth-child(1)
+{
+    display: flex;
+    align-items: center;
+}
+
+.Header__Selection>:nth-child(1)>:nth-child(2)
+{
+    font-size:8px;
+    width:13px;
+}
+
+/*Selection*/
+.selection
+{
+    display: flex;
+    flex-direction: column;
+    padding:9px 0;
+    border-radius:9px;
+    background-color: white;
+    font-size:12px;
+    position:absolute;
+    top:2%;
+    left:23%;
+    overflow:hidden;
+    width:0;
+}
+
+.Header__Selection:hover >.selection
+{
+    overflow: visible;
+    width:10rem;
+}
+
+
+.selection a
+{
+    color:#381fd1;
+    text-transform:capitalize;
+}
+
+.selection>li
+{
+  margin:0;
+  padding:4px 8px 4px 12px;
+}
+
+.selection>li:hover
+{
+    background-color:rgba(32, 29, 29, 0.062);
+}
+
+
+/*Hero section of the head*/
+.HomeHero
+{
+    display: flex;
+    margin:0 auto;
+}
+
+.HomeHero__left
+{
+    display: flex;
+    flex-direction: column;
+    padding-top:5rem;
+    padding-left:8px;
+}
+
+.HomeHero__left>:nth-child(1)
+{
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing:1px;
+    color:#FEDB63;
+    font-size:13px;
+    font-weight:600;
+}
+
+.HomeHero__left>:nth-child(2)
+{
+    font-size:4.3rem;
+    width:27rem;
+    text-transform:capitalize;
+    line-height:4.9rem;
+    margin-top:1rem;
+}
+
+.HomeHero__left>:nth-child(3)
+{
+   width:29rem;
+   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   line-height:1.6rem;
+   margin-top:7px;
+}
+
+.btn-container
+{
+    display: flex;
+    gap:1rem;
+    margin-top:1.4rem;
+}
+
+.btn-container>:nth-child(1)
+{
+    background-color: #FEDB63;
+    color: #10284B;
+}
+
+.btn-container>:nth-child(2)
+{
+    background-color:transparent;
+    color: #FEDB63;
+    border:1px solid #FEDB63;
+}
+
+.btn-container>:nth-child(1):hover
+{
+    background-color: rgba(254, 218, 99, 0.92);
+    transition: 0.3s ease-in-out background-color;
+}
+
+.btn-container>:nth-child(2):hover
+{
+    background-color: #FEDB63;
+    color: #10284B;
+}
+
+
+/*Hero right side*/
+.HomeHero__right
+{
+    margin-top:1.5rem;
+    margin-left:1.5rem;
+}
+
+.HomeHero__right img
+{
+   width:540px;
+}
+
+.image-left,
+.round-arrow
+{
+    position: absolute;
+}
+
+.round-arrow
+{
+    top:70%;
+    left:40%;    
+    width:7rem;
+}
+
+.image-left
+{
+    max-height:2rem;
+    left:49%;
+    top:12%;
+}
+
+.image-rotate
+{
+    max-height:9.2rem;
+    position:absolute;
+    top:26.4%;
+    right:9.6%;
+    animation:ROTATE 25s 1s linear infinite ;
+}
+
+.image-rotate--position
+{
+    top:78%;
+    right:36.5%;
+    max-height:7.5rem;
+    animation-direction:reverse;
+}
+
+
+@keyframes ROTATE
+{
+    0%
+    {
+        transform: rotate(0deg);
+    }
+    100%
+    {
+        transform: rotate(360deg);
+    }
+
+}

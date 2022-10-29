@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Armin Grotesk';
+    src: local('Armin Grotesk Black'), local('Armin-Grotesk-Black'),
+        url('ArminGrotesk-Black.woff2') format('woff2'),
+        url('ArminGrotesk-Black.woff') format('woff'),
+        url('ArminGrotesk-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+  }
