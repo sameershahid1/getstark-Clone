@@ -44,3 +44,9 @@ a
 {
     background-color: #371fd183;
 }
+
+.body
+{
+    display: flex;
+    flex-direction: column;
+}

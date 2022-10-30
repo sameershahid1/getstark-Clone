@@ -4,7 +4,7 @@ import './Header.css'
 import HomeHero from './HomeHero';
 
 
-const Productlist=["Stark for Mac","Stark for Figma","Stark for Sketch","Stark for Adobe XD","Stark for Chrome","Stark for Brave","Stark for Edge"];
+export const Productlist=["Stark for Mac","Stark for Figma","Stark for Sketch","Stark for Adobe XD","Stark for Chrome","Stark for Brave","Stark for Edge"];
 const navList=["pricing","blog","library","support","log in"];
 
 

@@ -1,0 +1,93 @@
+.Footer
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:2rem;
+    background-color: #10284b;
+    color:white;
+}
+
+/*Footer Heading*/
+
+.Footer__Heading
+{
+    display:flex;
+    gap:25vw;
+    margin-top:5rem;
+}
+
+.Footer__Heading>h1
+{
+    font-size:3.3rem;
+    line-height:3.5rem;
+    width:54vw;
+}
+
+/*Footer Menu*/
+
+.Footer__Menu
+{
+    display: flex;
+    gap:13vw;
+    flex-wrap: wrap;
+    width:83vw;
+    margin-top:2rem;
+}
+
+.Footer__Menu__Tags,
+.Footer__Menu__Tags>ul
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.Footer__Menu__Tags span
+{
+    text-transform:uppercase;
+    font-size:14px;
+    letter-spacing: 1px;
+}
+
+.Footer__Menu__Tags li
+{
+    font-family: 'Times New Roman', Times, serif;
+    font-size:14px;
+    font-weight:bold;
+    padding:7px 0;
+}
+
+.Footer__Menu__Tags li:hover
+{
+    text-decoration: underline;
+}
+
+/*Footer Icons*/
+.Footer__Social-Icons
+{
+    display: flex;
+    align-items: center;
+    gap:44vw;
+    padding-top:3rem;
+    padding-bottom:3rem;
+}
+
+.Footer__Social-Icons ul
+{
+    display: flex;
+    align-items: center;
+    gap:10px;
+}
+
+.Footer__Social-Icons img
+{
+    width:1.7rem;
+}
+
+.Footer__Social-Icons p
+{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight:bolder;
+    letter-spacing:1px;
+    color: #FEDB63;
+}
